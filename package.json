@@ -1,11 +1,11 @@
 {
   "name": "winfred.cxt-docs-report",
   "description": "CXT Docs report",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "winfred",
   "repository": {
     "type": "git",
-    "url": "TODO: Add the GitHub URL to your extension in package.json"
+    "url": "https://github.com/winfred/doc-tracker"
   },
   "license": "MIT",
   "devDependencies": {
