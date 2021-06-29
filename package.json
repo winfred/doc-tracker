@@ -1,0 +1,28 @@
+{
+  "name": "winfred.cxt-docs-report",
+  "description": "CXT Docs report",
+  "version": "0.0.0",
+  "author": "winfred",
+  "repository": {
+    "type": "git",
+    "url": "TODO: Add the GitHub URL to your extension in package.json"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "aha-cli": "1.9.9"
+  },
+  "ahaExtension": {
+    "contributes": {
+      "views": {
+        "docsReport": {
+          "title": "Tracker",
+          "entryPoint": "src/views/docsReport.js",
+          "host": "page",
+          "location": {
+            "menu": "Document"
+          }
+        }
+      }
+    }
+  }
+}
